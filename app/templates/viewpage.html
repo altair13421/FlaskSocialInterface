@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<p>
+    {{post.post_title}} <br>
+    By User: <a href="{{url_for('userprofile', username=post.author.username)}}">{{post.author.username}}</a> <br>
+    {{post.post_body}}
+</p>
+
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form action="" method="post">
+    {{form.hidden_tag()}}
+    <p>{{form.username.label}}</p> {{form.username(size=30)}}
+    <p>{{form.password.label}}</p> {{form.password(size=30)}}
+    <p>{{form.remember_me()}} {{form.remember_me.label}}</p>
+    <p>{{form.submit()}}</p>
+    <p>New User? <a class="btn btn-consult" href="{{url_for('signup')}}">Sign up for free</a></p>
+</form>
+
+{% endblock %}

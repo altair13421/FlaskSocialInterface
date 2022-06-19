@@ -1,0 +1,538 @@
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* navbar css start */
+
+body,html{
+    height: 100% ;
+}
+.bg{
+    background-color: rgb(6, 84, 102);
+    
+}
+.btn-get-started{
+    background-color: rgb(6, 84, 102);
+    font-size: 24px;
+    padding: 10px 20px;
+    color: white;
+    
+    opacity: 0.9;
+    
+}
+.btn-get-started:hover{
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.dropdown-item:hover{
+    background-color: rgb(6, 84, 102);
+    color: white;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+/* navbar css end */
+
+
+
+.heading{
+    text-transform: capitalize;
+    font-size: 90px;
+    color: white;
+}
+.bgr{
+    /* background: url(/static/images/slider4-modified.jpg); */
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    padding: 0 20px ;
+
+}
+
+
+/* login form css */
+
+.background{
+    width: 100%;
+    background: #E8E8E8;
+    
+    height: 100% ;
+    
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-sm{
+    background-color: white;
+    width: 30%; 
+    padding: 50px 40px;
+}
+h1{
+    font-weight: bolder;
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+p{
+    text-transform: capitalize;
+}
+.form-group{
+    line-height: 0px;
+    color: grey;
+}
+.form-control{
+    
+    border-radius: 0px;
+    
+}
+.btn{
+    width: 100%;
+    background-color: rgb(6, 84, 102);
+    color: white;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.btn:hover{
+    color: white;
+    opacity: 1;
+}
+.link{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.form-control::placeholder{
+    color: rgb(216, 216, 216);
+}
+
+/* signupform patient CSS */
+
+.background-signup{
+    width: 100%;
+    background: #E8E8E8;
+    
+    height: 100% auto;
+    padding: 5% 0;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-md{
+    background-color: white;
+    width: 50%; 
+    padding: 5%;
+   
+}
+.name-age{
+    display: flex;
+    
+    
+    justify-content: space-between;
+}
+#fname, #age{
+    width: 48%;
+}
+
+
+
+@media screen and (max-width:459px){
+    .bgr{
+        background-position: 70%;
+    }
+
+    .heading{
+        font-size: 50px;
+    }
+    
+    .dropdown-menu{
+        width: 50%;
+    }
+    
+    .container-sm{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    .container-md{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .link{
+        font-size: x-small;
+    }
+    .background-signup{
+        
+        padding: 30% 0;
+    }
+    
+    .name-age{
+        display: block;
+    }
+    #fname, #age{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-height:740px){
+    html,body{
+        height: 100%;
+    }
+    
+}
+
+@media (min-width:460px) and (max-width:576px){
+    .bgr{
+        background-position: 70%;
+    }
+    .heading{
+        font-size: 60px;
+    }
+    
+    .dropdown-menu{
+        width: 50%;
+    }
+    
+    .container-sm{
+        width: 80%;
+        
+    }
+    .container-md{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    .link{
+        font-size: small;
+    }
+    
+}
+@media (min-width:577px) and (max-width:768px){
+    .bgr{
+        background-position: 70%;
+    }
+    .heading{
+        font-size: 60px;
+    }
+    
+    
+    .container-sm{
+        width: 80%;
+        
+    }
+    .container-md{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    .link{
+        font-size: small;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    
+    .bgr{
+        background-position: 60%;
+    }
+    .heading{
+        font-size: 80px;
+    }
+    
+    
+    .container-sm{
+        width: 60%;
+        
+    }
+    .container-md{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    .link{
+        font-size: small;
+    }
+    
+    
+}
+@media (min-width:993px) and (max-width:1280px){
+    html,body{
+        height: 100%;
+    }
+    .bgr{
+        background-position: 60%;
+    }
+    .heading{
+        font-size: 70px;
+    }
+    
+    .container-sm{
+        width: 40%;
+        
+    }
+    .container-md{
+        width: 70%;
+        
+        line-height: 5px;
+    }
+    .link{
+        font-size: medium;
+    }
+    .background-signup{
+        height: auto;
+    }
+}
+@media screen and (min-width:1281px){
+   
+    .bgr{
+        background-position: 60%;
+    }
+    .heading{
+        font-size: 70px;
+    }
+    
+    
+    
+    
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+/* navbar css start */
+
+body,html{
+    height: 100%;
+}
+.bg{
+    background-color: rgb(6, 84, 102);
+    
+}
+.bgbtn{
+    background-color: rgb(6, 84, 102);
+    color: white;
+}
+.bgbtn:hover{
+    background-color: white;
+    color: rgb(6, 84, 102);
+    text-decoration: none;
+}
+
+
+
+
+
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+/* navbar css end */
+
+.background{
+    width: 100%;
+    background: #E8E8E8;
+    padding: 5% 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color: white;
+    width: 50%; 
+    padding: 5%;
+    
+}
+h1{
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+p{
+    text-transform: capitalize;
+}
+.form-group{
+    line-height: 0px;
+    color: grey;
+}
+.form-control{
+    
+    border-radius: 0px;
+    
+}
+.submit{
+   
+    background-color: rgb(6, 84, 102);
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.submit:hover{
+    opacity: 1;
+}
+
+.form-control::placeholder{
+    color: rgb(216, 216, 216);
+}
+
+/* message */
+
+.background-msg{
+    width: 100%;
+    background: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+
+    
+}
+.message{
+    width: 30%;
+    height: auto;
+    background: white;
+    padding: 2%;
+}
+.msg{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.get-msg{
+    text-transform: none;
+}
+
+@media screen and (max-width:459px){
+    
+    
+    
+    
+    .container{
+        width: 80%;
+        
+        line-height: 5px;
+    }
+    
+    h1{
+        font-size: 28px;
+    }
+    .link{
+        font-size: x-small;
+    }
+    .message{
+        width: 70%;
+    }
+    .get-msg{
+        font-size: small;
+    }
+}
+
+@media screen and (max-height:740px){
+    html,body{
+        height: 100%;
+    }
+
+}
+
+@media (min-width:460px) and (max-width:576px){
+    
+    
+    .container{
+        width: 80%;
+        
+    }
+   
+    .link{
+        font-size: small;
+    }
+    .message{
+        width: 70%;
+    }
+    .get-msg{
+        font-size: small;
+    }
+}
+@media (min-width:577px) and (max-width:768px){
+   
+    
+    .container{
+        width: 60%;
+        
+    }
+    
+    .link{
+        font-size: small;
+    }
+    .message{
+        width: 50%;
+    }
+    .get-msg{
+        font-size: small;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    html,body{
+        height: 100%;
+    }
+    
+    .container{
+        width: 60%;
+        
+    }
+    
+    .link{
+        font-size: small;
+    }
+    .message{
+        width: 50%;
+    }
+    
+}
+@media (min-width:993px) and (max-width:1280px){
+    html,body{
+        height: 100%;
+    }
+    
+    
+    .container{
+        width: 60%;
+        
+    }
+    .background{
+        height: auto;
+    }
+    .link{
+        font-size: medium;
+    }
+    .message{
+        width: 40%;
+    }
+}

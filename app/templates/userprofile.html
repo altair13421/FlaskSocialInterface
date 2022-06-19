@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<img src="{{user.avatar}}" alt="" height="90px">
+<p>Username: {{user.username}}</p>
+<p>Last seen On: {{user.last_seen}}</p>
+{% if user.about_me%}
+    <p>About: {{user.about_me}}</p>
+{% endif %}
+{% endblock %}
